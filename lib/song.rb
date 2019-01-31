@@ -1,5 +1,8 @@
 class Song
   attr_accessor :title, :artist
-end
 
-def 
+  @@all = []
+
+def initialize(name)
+  @name = name
+end
